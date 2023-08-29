@@ -1,0 +1,75 @@
+
+
+.carousel-size {
+    height: 607px;
+    width: 90%;
+}
+
+.width-info {
+    color: #221E22;
+    font-family: Riposte;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+
+    justify-content: space-between;
+}
+
+.slick-next {
+    top: 210px;
+}
+
+.slick-prev {
+    left: -27px;
+    top: 210px;
+}
+
+.slick-slide >div >div {
+    width: auto !important;
+}
+
+.slick-slide >div {
+    width: fit-content !important;
+    margin: auto !important;
+}
+
+.carousel-header-styling {
+    color: #000;
+    font-family: Inter;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.position-heard {
+    top: 8px;
+    right: 4%;
+    fill: #525174;
+}
+
+.night-t-shirt {
+    border-radius: 6px;
+    border: 0.8px solid #31263F;
+}
+
+
+.slick-track {
+    display: flex;
+    gap: 36px;
+}
+
+.style-num {
+    color: #546070;
+    font-family: Archivo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.slick-next, .slick-prev {
+    height: 40px;
+    width: 40px;
+}

@@ -1,0 +1,82 @@
+.navbar {
+  background-color: #E9E9E9;
+}
+
+.logo-p {
+  font-family: Archivo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%; /* 14px */
+  letter-spacing: 0.07px;
+}
+
+.navbar-brand {
+  height: 95px !important;
+  margin-right: 0px !important;
+  border-color: #546070 !important;
+  width: 37% !important;
+  justify-content: space-between !important;
+}
+
+.menu-nav-bar-women,
+.menu-nav-bar-inside,
+.menu-nav-bar-search,
+.menu-nav-bar-log-in,
+.menu-nav-bar-man,
+.menu-nav-bar-accessories,
+.menu-nav-bar-wishlist,
+.menu-nav-bar-cart {
+  display: flex;
+  padding: 11px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-right: 0.5px solid #546070;
+  border-bottom: 0.5px solid #546070;
+}
+
+.menu-nav-bar-women,
+.menu-nav-bar-inside,
+.menu-nav-bar-search,
+.menu-nav-bar-log-in {
+  border-top: 0.5px solid #546070;
+}
+
+.menu-nav-bar-women {
+  width: 20.22%;
+}
+
+.menu-nav-bar-inside {
+  width: 30.15%;
+}
+
+.menu-nav-bar-search {
+  width: 15.53%;
+}
+
+.menu-nav-bar-log-in {
+  width: 33.79%;
+}
+
+.menu-nav-bar-man {
+  width: 25.4%;
+}
+
+.menu-nav-bar-accessories {
+  width: 19.75%;
+}
+
+.menu-nav-bar-wishlist {
+  width: 24.6%;
+}
+
+.menu-nav-bar-cart {
+  width: 30%;
+}
+
+.navbar-expand-sm .navbar-collapse {
+  display: grid !important;
+}
+
+/*# sourceMappingURL=navBar.css.map */

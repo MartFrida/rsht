@@ -1,0 +1,26 @@
+
+
+@mixin textInfo($color, $family, $size, $style, $weight, $height, $spacing) {
+  color: $color;
+  font-family: $family;
+  font-size: $size;
+  font-style: $style;
+  font-weight: $weight;
+  line-height: $height;
+  letter-spacing: $spacing;
+}
+
+.shop-btn-man {
+  width: 177px;
+  height: 46px;
+  @include textInfo(black, Archivo, 20px, normal, 500, 100%, 0px);
+  &:hover {
+    transition-duration: 350ms;
+    @include textInfo($button_primary, Archivo, 25px, normal, 600, 100%, 0px);
+  }
+}
+
+.man-collection-header {
+  letter-spacing: -0.96px;
+  line-height: 100%;
+}

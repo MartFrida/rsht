@@ -1,0 +1,28 @@
+
+@mixin textInfo($color, $family, $size, $style, $weight, $height, $spacing) {
+    color: $color;
+    font-family: $family;
+    font-size: $size;
+    font-style: $style;
+    font-weight: $weight;
+    line-height: $height;
+    letter-spacing: $spacing; 
+}
+
+.info-man-section {
+    position: absolute;
+    z-index: 2;
+
+    padding-top: 40px;
+    left: 43%;
+
+}
+
+.margin-top-man-section {
+    margin-top: -20px;
+}
+
+.comfort-running-man {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}

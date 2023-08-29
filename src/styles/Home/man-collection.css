@@ -1,0 +1,21 @@
+.shop-btn-man {
+  width: 177px;
+  height: 46px;
+  color: black;
+  font-family: Archivo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+.shop-btn-man:hover {
+  transition-duration: 350ms;
+  color: #EE5622;
+  font-family: Archivo;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0px;
+}/*# sourceMappingURL=man-collection.css.map */

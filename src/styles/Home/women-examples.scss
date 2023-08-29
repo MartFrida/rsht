@@ -1,0 +1,31 @@
+.btn-grab-your {
+    width: 151px;
+    height: 52px;
+    background-color: #EE5622;
+    box-shadow: -5px 7px 0 2px #FFF;
+    &:hover {
+        transition-duration: 0.2s;
+        box-shadow: none;
+        margin-top: 2px;
+    }
+}
+
+@media(max-width: 1197px) {
+    .describtion-clothes {
+        justify-content: center !important;
+    }
+    .last-card-women {
+        gap: 23px !important;
+        margin-top: 5%;
+    }
+}
+
+@media(max-width: 861px) {
+    .last-card-women, .sneakers-card {
+        gap: 23px !important;
+        margin-top: 5%;
+    }
+    .t-shirt-card {
+        gap: 23px !important;
+    }
+}

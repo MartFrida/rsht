@@ -1,0 +1,12 @@
+@keyframes move-top {
+    0% {top:0%;}
+    20% {top: -86%}
+    40% {top: -172%}
+    100% {top: 0%}
+}
+
+.top-animation {
+    animation-name: move-top;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}

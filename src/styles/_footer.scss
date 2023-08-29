@@ -1,0 +1,15 @@
+@import "./_variables";
+
+footer {
+  border-color: $text_body_secondary;
+
+  h3,
+  a {
+    color: $text_body_primary;   
+  }
+  a{
+    &:hover {
+      color: $button_primary;
+    }
+  }
+}

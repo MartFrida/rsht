@@ -1,0 +1,68 @@
+
+@mixin textInfo($color, $family, $size, $style, $weight, $height, $spacing) {
+    color: $color;
+    font-family: $family;
+    font-size: $size;
+    font-style: $style;
+    font-weight: $weight;
+    line-height: $height;
+    letter-spacing: $spacing; 
+}
+
+.women-collectio-header {
+    @include textInfo($white, Riposte, 48px, normal, 400, 100%, -0.96px);
+}
+
+.comfort-running {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    @include textInfo($white, Inter, 20px, normal, 400, 130%, 0px);
+}
+
+.info-women-section {
+    position: absolute;
+    z-index: 2;
+
+    padding-top: 100px;
+    padding-left: 118px;
+}
+
+.shop-btn-women {
+    width: 177px;
+    height: 46px;
+    @include textInfo($white, Archivo, 20px, normal, 500, 100%, 0px);
+    &:hover {
+        transition-duration: 350ms;
+        @include textInfo($button_primary, Archivo, 25px, normal, 600, 100%, 0px);
+    }
+}
+
+.margin-top-women-section {
+    margin-top: -76px;
+    max-height: 613px;
+}
+
+.bg-section {
+    width: 100%;
+
+    .images-container-bg {
+
+        .women-runner-big {
+            width: 66%;
+            &>img {
+                width: 100%;
+            }
+        }
+
+        .women-runner {
+            width: 34%;
+            
+
+            &>img {
+                height: 94.6%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}

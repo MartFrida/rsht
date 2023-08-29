@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&family=Fjalla+One&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&family=Fjalla+One&family=Inter:wght@400;500&family=Lato&display=swap');
+
+@import url('styles/home/global.css');
+@import url('styles/home/navBar.css');
+@import url('styles/home/header.css');
+@import url('styles/home/bestsellers.css');
+@import url('styles/home/women-section.css');
+@import url('styles/home/women-examples.css');
+@import url('styles/home/whinged-phease.css');
+@import url('styles/home/man-collection.css');
+@import url('styles/home/free-mind.css');
+@import url('styles/home/running-accessories.css');
+
+@import url("styles/AllProducts/small-details.css");
+
+@import url("styles/_footer.scss");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
